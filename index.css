@@ -1,0 +1,47 @@
+.bdy {
+    margin-left: 8rem;
+}
+
+.rowdropdown {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+.cont-img {
+    margin-left: 13rem;
+}
+
+.img.contant {
+    background-image: url(/images/banner.webp);
+    display: flex;
+    align-items: center;
+    width: 70rem;
+    height: 26rem;
+    background-repeat: no-repeat;
+}
+
+.img-slide {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 2rem;
+}
+
+.top-bar {
+    background-color: #f3f3f3;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info p,
+.user-options a {
+    margin: 0 10px;
+    display: inline;
+}
+
+.user-options a {
+    text-decoration: none;
+    color: #000;
+}
